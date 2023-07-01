@@ -27,8 +27,7 @@ Uma API que permite gerenciar mouses.
 - Excluir um mouse: `DELETE /mouses/id`
 
 ## IMPORTANTE
-- No arquivo application.properties o caminho do banco de dados
-- deve ser informado da seguinte forma:
+- No arquivo application.properties o caminho do banco de dados deve ser informado da seguinte forma:
 
 > spring.data.mongodb.uri = Url do MongoDB
-> Não está informado a url do meu banco de dados por questões de segurança.
+Não está informado a url do meu banco de dados por questões de segurança.
